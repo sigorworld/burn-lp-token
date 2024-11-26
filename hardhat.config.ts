@@ -18,11 +18,10 @@ const config: HardhatUserConfig = {
     }],
   },
   networks: {
-    "base-sepolia": {
-      url: "https://sepolia.base.org",
+    kaia: {
+      chainId: 8217,
+      url: "https://public-en.node.kaia.io",
       accounts,
-      chainId: 84532,
-      gasPrice: 1000000000,
     },
   },
 };
